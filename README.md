@@ -8,7 +8,7 @@
 
 ## 在线预览
 
-[https://www.2v.design](2v.design) 基于此模板开发，考虑以后收集一些有趣的东西。
+[https://www.2v.design](https://www.2v.design) 基于此模板开发，考虑以后收集一些有趣的东西。
 
 ### 核心依赖如下
 
