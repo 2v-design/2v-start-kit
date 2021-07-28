@@ -8,6 +8,10 @@
 
 ## 在线预览
 
+<p align="center">
+  <img width="970px" src="./public/demo.png">
+</p>
+
 [2v.design](https://www.2v.design) 基于此模板开发，考虑以后收集一些有趣的东西。
 
 ### 核心依赖如下
