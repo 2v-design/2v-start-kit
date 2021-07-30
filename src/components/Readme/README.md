@@ -2,13 +2,17 @@
 
 ## 基本介绍
 
-2v-start-kit 使用 `vite2.0` + `vue3.0` 组成的web应用前端模板。
+2v-start-kit 使用 `vite2.0` + `vue3.0` 的web应用前端模板。
 
 🌤🌤🌤 此方案正自用中，使用了beta版依赖，仅供学习参考。
 
 ## 在线预览
 
-[https://www.2v.design](2v.design) 基于此模板开发，考虑以后收集一些有趣的东西。
+<p align="center">
+  <img width="970px" src="../../../public/demo.png">
+</p>
+
+[2v.design](https://www.2v.design/#/demo) 基于此模板开发。
 
 ### 核心依赖如下
 
@@ -25,7 +29,7 @@
 
 - [x] 📝 支持提交风格规范检查/提示 (默认关闭)
 
-- [x] 👌 集成基于简单的登录跳转Demo
+- [x] 👌 集成简单的登录跳转Demo
 
 - [x] 👌 支持组件 README.md文件渲染 src/components/xxx
 
