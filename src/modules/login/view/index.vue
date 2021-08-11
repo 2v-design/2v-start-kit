@@ -18,7 +18,7 @@
           <el-input type="password" v-model.trim="loginForm.password" autocomplete="off"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button :loading="loading" type="info" @click="testLogin">模拟登录</el-button>
+          <el-button :loading="loading" type="info" @click="testLogin">Test Login</el-button>
         </el-form-item>
       </el-form>
 
@@ -35,7 +35,7 @@
     components: {},
     data() {
       return {
-        title: '登录界面',
+        title: 'Login Demo',
         loginForm: {
           username: 'admin',
           password: 'admin'
@@ -103,25 +103,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #000000d9;
 
     .bg {
-      width: 50vw;
+      width: 60%;
       height: 100%;
-      background: url('../images/login_background.jpg') no-repeat;
+      background: url('../images/login_background.png') no-repeat;
       background-size: 100%;
+      background-position: 0 250px;
     }
 
     .login-form {
-      width: 40vw;
+      width: 40%;
       display: flex;
       flex-flow: column;
-      align-items: center;
+      // align-items: center;
 
       .title {
         width: 400px;
         font-size: 55px;
         font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 600;
+        color: #ffffffb3;
       }
 
       .el-form {
@@ -129,23 +132,22 @@
         width: 400px;
         height: 250px;
         margin-top: 50px;
-        background: #84b6f3;
+        background: #424659;
         border-radius: 10px;
-        box-shadow: 14px 11px 0 8px #ddeafc;
         box-sizing: border-box;
       }
 
       :deep(.el-form-item__label) {
         color: #fff;
       }
+    }
 
-      .footer {
-        position: absolute;
-        bottom: 3px;
-        left: 5px;
-        font-size: 12px;
-        color: rgba(0, 0, 0, 0.5);
-      }
+    .footer {
+      position: absolute;
+      bottom: 3px;
+      left: 5px;
+      font-size: 12px;
+      color: #fff;
     }
   }
 </style>
