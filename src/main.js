@@ -7,16 +7,18 @@ vueApp.use(router)
 
 // ElementPlus
 import ElementPlus from 'element-plus'
-import locale from 'element-plus/lib/locale/lang/zh-cn'
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
+import 'element-plus/dist/index.css'
 vueApp.use(ElementPlus)
 
 // styles
-import 'element-plus/lib/theme-chalk/index.css'
 import 'vite-plugin-vuedoc/style.css'
 import './styles/markdown.scss'
 
 // 国际化
-createApp(App).use(ElementPlus, { locale })
+createApp(App).use(ElementPlus, {
+  locale: zhCn
+})
 
 // pinia (vuex-next)
 import { createPinia } from 'pinia'
