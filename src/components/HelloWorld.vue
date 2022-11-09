@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <el-button type="text" @click="handleChangeCount">改变单个state</el-button>
-    <el-button type="text" @click="handleChangeState">改变多个state</el-button>
-    <el-button type="text" @click="handleResetState">重置state</el-button>
+    <el-button link @click="handleChangeCount">改变单个state</el-button>
+    <el-button link @click="handleChangeState">改变多个state</el-button>
+    <el-button link @click="handleResetState">重置state</el-button>
     <p>state.count is: {{ store.count }}</p>
     <p>state.message is: {{ store.message }}</p>
     --------

@@ -3,7 +3,7 @@
     <div class="left"></div>
     <div class="right">
       <Screenfull />
-      <el-button type="text" @click="logout">退出</el-button>
+      <el-button link @click="logout">退出</el-button>
     </div>
   </div>
 </template>

@@ -6,8 +6,8 @@
 
 <template>
   <div class="live-board">
-    <el-button type="text" class="title" @click.stop="$refs.live2d.showModel()">打开</el-button>
-    <el-button type="text" class="title" @click.stop="$refs.live2d.hideModel()">关闭</el-button>
+    <el-button link class="title" @click.stop="$refs.live2d.showModel()">打开</el-button>
+    <el-button link class="title" @click.stop="$refs.live2d.hideModel()">关闭</el-button>
     <Live2dBoard ref="live2d"/>
   </div>
 </template>
